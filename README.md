@@ -1,2 +1,2 @@
 # Cosmos
-Cosmos Wholesale - Jethawani 2021 Class 
+Cosmos Wholesale - Jethwani 2021 Class 
