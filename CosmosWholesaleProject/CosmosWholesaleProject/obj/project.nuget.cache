@@ -1,8 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "eJxuXk63rCyGrF81mXITJd/QJIPXwFpzgvVsplZUbzLKezYLpj1+wLQVCYX3EqgpGvM5kCo6PmeDaCfrTykCMA==",
-  "success": true,
+  "dgSpecHash": "migC8RtI4Oh7Fi04klmq3aRFMXzZHk4GIvfvb6N6LAAJ4SVhbazrrJWVNfJv7E/5xUcPjOn80RCwfiHamslvdQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.VisualStudio.Web.BrowserLink. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.VisualStudio.Web.BrowserLink",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
