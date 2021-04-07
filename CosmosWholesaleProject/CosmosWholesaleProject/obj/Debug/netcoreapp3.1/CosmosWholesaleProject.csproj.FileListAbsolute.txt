@@ -37,3 +37,42 @@ C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWho
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csproj.CopyComplete
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\AboutUs.cshtml.g.cs
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\FAQ.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.exe
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.deps.json
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.runtimeconfig.json
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.runtimeconfig.dev.json
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.dll
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.pdb
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.Views.dll
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\bin\Debug\netcoreapp3.1\CosmosWholesaleProject.Views.pdb
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csprojAssemblyReference.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.AssemblyInfoInputs.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.AssemblyInfo.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csproj.CoreCompileInputs.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.RazorAssemblyInfo.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.RazorAssemblyInfo.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\staticwebassets\CosmosWholesaleProject.StaticWebAssets.Manifest.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\staticwebassets\CosmosWholesaleProject.StaticWebAssets.xml
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\CosmosWholesaleProject.styles.css
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.TagHelpers.input.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.TagHelpers.output.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.RazorCoreGenerate.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\AboutUs.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\FAQ.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.RazorTargetAssemblyInfo.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.RazorTargetAssemblyInfo.cs
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.Views.pdb
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.dll
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.pdb
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.genruntimeconfig.cache
+C:\Users\brian\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csproj.CopyComplete

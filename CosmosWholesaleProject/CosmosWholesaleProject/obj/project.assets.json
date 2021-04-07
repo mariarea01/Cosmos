@@ -8,26 +8,27 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\maria\\.nuget\\packages\\": {}
+    "C:\\Users\\brian\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
       "projectName": "CosmosWholesaleProject",
-      "projectPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-      "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
+      "projectPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
