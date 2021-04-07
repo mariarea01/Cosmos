@@ -36,4 +36,3 @@ C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWho
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.genruntimeconfig.cache
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csproj.CopyComplete
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\AboutUs.cshtml.g.cs
-C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\test.cshtml.g.cs
