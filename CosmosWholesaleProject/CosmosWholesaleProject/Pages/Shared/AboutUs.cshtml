@@ -1,0 +1,56 @@
+﻿@*@model CosmosWholesaleProject.Pages.AboutUsModel*@
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    @*<link rel=”stylesheet” href=”https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css”rel =”nofollow” integrity=”sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I” crossorigin=”anonymous”>*@
+    @*<h1 class="display-4, text-center">About Us</h1>*@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="stylesheet" href="@Url.Content("~/wwwroot/css/site.css")" @*type="text/css"*@ />
+    <link href="~/wwwroot/css/site.css" />
+    @*<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />*@
+    <style>
+        .rectangle {
+            background-color: #003054;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+    <h1 class="text-white display-4, text-center">About Us</h1>
+    </div>
+                <h2>What is Cosmos?</h2>
+                Cosmos is a wholesale warehouse club who strives to provide their
+                customers with brand name merchandise with affordable prices.
+                Cosmos is a nationwide club with many exclusive memberships and
+                speciality departments that will hopefully satisfy the customer.
+
+                <h3>Who are the Board of Directors?</h3>
+                <p class="text-dark, text-left">
+                    Emily Ostwouder- President
+                    <br />Irena Jusic- Vice President
+                    <br />Maria Rea- Secretary
+                    <br />Briana Smallwood- Treasurer
+                </p>
+                <h3>What is our Mission Statement?</h3>
+                <p>
+                    “Provide quality food throughout the Galaxy”
+                </p>
+                <h3>What is Our Business History?</h3>
+                <p>
+                    Founding members of Cosmos: Neil Armstrong, Edwin “Buzz” Aldrin, Michael Collins
+                    <br />Founding of Cosmos:
+                    These three spacemen decided to open a galactic supermart during their time in space
+                    because the quality of space food wasn’t the same as real food in stores.
+                </p>
+
+                <div>
+                    @RenderBody()
+                </div>
+</body>
+</html>
