@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "ZK8zy8bOVwwDvfWwIJCRVeM6lOnOfGQ00e5raUCjsqyjVRQbhvtEDWhU1gaqSCPdAfDNAN8pXaFajopu2lcZnQ==",
+  "dgSpecHash": "5Jn/yV+sg4VNt3rJ9IbZtbmUnjNtVxOvKNzgOK0Q/CeQLK4RuAHsTEzVQf8bEeNcGf2nL9dLbHZyDplEqZjy6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-=======
-  "dgSpecHash": "0fWl9v0ApyuJAG+NyTmplASAB2G3h3uLkKpi3tF1bzIu3dqvYvYBhqCGyQQgPq0N0D02K1V9JpqUS/2rhcc3mg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
->>>>>>> 0795289f0c251ac3010ac21bc8d016d9eaf3fead
+  "projectFilePath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
