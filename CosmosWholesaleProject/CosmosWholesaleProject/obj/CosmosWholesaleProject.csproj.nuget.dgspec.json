@@ -1,24 +1,7 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "projectName": "CosmosWholesaleProject",
-        "projectPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
-=======
-    "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
->>>>>>> bbf03599f437b6475930688c9feebb071134bcda
   },
   "projects": {
     "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
@@ -26,16 +9,9 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
         "projectName": "CosmosWholesaleProject",
-<<<<<<< HEAD
         "projectPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
         "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
-=======
-        "projectPath": "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "packagesPath": "C:\\Users\\jiren\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
->>>>>>> 0795289f0c251ac3010ac21bc8d016d9eaf3fead
->>>>>>> bbf03599f437b6475930688c9feebb071134bcda
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
