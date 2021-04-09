@@ -1,7 +1,38 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
+=======
+<<<<<<< HEAD
+    "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
+>>>>>>> 265f14601f6c45f47374ee7a4c6d1d1615fe84e5
+  },
+  "projects": {
+    "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+        "projectName": "CosmosWholesaleProject",
+        "projectPath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+<<<<<<< HEAD
+        "outputPath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "outputPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
+=======
+    "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
+>>>>>>> bbf03599f437b6475930688c9feebb071134bcda
+>>>>>>> 3941d51b1f1765fc23ecbb5acb71d71e04d627b7
   },
   "projects": {
     "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
@@ -15,6 +46,7 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 265f14601f6c45f47374ee7a4c6d1d1615fe84e5
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
