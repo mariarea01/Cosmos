@@ -1,8 +1,26 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5Jn/yV+sg4VNt3rJ9IbZtbmUnjNtVxOvKNzgOK0Q/CeQLK4RuAHsTEzVQf8bEeNcGf2nL9dLbHZyDplEqZjy6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "eJxuXk63rCyGrF81mXITJd/QJIPXwFpzgvVsplZUbzLKezYLpj1+wLQVCYX3EqgpGvM5kCo6PmeDaCfrTykCMA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+=======
+<<<<<<< HEAD
+  "dgSpecHash": "ZK8zy8bOVwwDvfWwIJCRVeM6lOnOfGQ00e5raUCjsqyjVRQbhvtEDWhU1gaqSCPdAfDNAN8pXaFajopu2lcZnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+=======
+  "dgSpecHash": "0fWl9v0ApyuJAG+NyTmplASAB2G3h3uLkKpi3tF1bzIu3dqvYvYBhqCGyQQgPq0N0D02K1V9JpqUS/2rhcc3mg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+>>>>>>> 0795289f0c251ac3010ac21bc8d016d9eaf3fead
+>>>>>>> bbf03599f437b6475930688c9feebb071134bcda
+>>>>>>> 265f14601f6c45f47374ee7a4c6d1d1615fe84e5
   "expectedPackageFiles": [],
   "logs": []
 }
