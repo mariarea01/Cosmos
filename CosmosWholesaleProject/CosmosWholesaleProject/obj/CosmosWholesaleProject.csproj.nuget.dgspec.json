@@ -1,59 +1,28 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
->>>>>>> 265f14601f6c45f47374ee7a4c6d1d1615fe84e5
+    "C:\\Users\\jiren\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
+    "C:\\Users\\jiren\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+        "projectUniqueName": "C:\\Users\\jiren\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
         "projectName": "CosmosWholesaleProject",
-        "projectPath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
-<<<<<<< HEAD
-        "outputPath": "C:\\Users\\brian\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
+        "projectPath": "C:\\Users\\jiren\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
+        "packagesPath": "C:\\Users\\jiren\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jiren\\source\\repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-        "outputPath": "C:\\Users\\brian\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
-=======
-    "C:\\Users\\jiren\\Source\\Repos\\mariarea01\\Cosmos\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {}
->>>>>>> bbf03599f437b6475930688c9feebb071134bcda
->>>>>>> 3941d51b1f1765fc23ecbb5acb71d71e04d627b7
-  },
-  "projects": {
-    "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "projectName": "CosmosWholesaleProject",
-        "projectPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\CosmosWholesaleProject.csproj",
-        "packagesPath": "C:\\Users\\maria\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\maria\\Documents\\CosmosWholesale Github\\CosmosWholesaleProject\\CosmosWholesaleProject\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\maria\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 265f14601f6c45f47374ee7a4c6d1d1615fe84e5
+          "C:\\Users\\jiren\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
