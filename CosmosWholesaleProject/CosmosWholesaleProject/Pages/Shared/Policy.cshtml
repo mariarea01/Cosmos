@@ -1,0 +1,66 @@
+@*@model CosmosWholesaleProject.Pages.PolicyModel*@
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cosmo's Policies</title>
+ 
+    <style>
+        .rectangle {
+            background-color: #003054;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="rectangle">
+        <h1 class="text-white display-4, text-center">About Us</h1>
+    </div>
+    <h2>Shipping Policy</h2>
+    All items will be shipped through our own courier service. 
+    Perishable items shipped within 1-2 business days. 
+    Non-perishables shipped within 3-5 days.
+
+    <h3>Shipping Rates</h3>
+    <p class="text-dark, text-left">
+        Perishable Items:
+        <br /> $6.00 shipping for purchases under $35
+        Free for purchases over $35 or for members
+        <br />Perishable Items:
+        <br />
+        $35.00 shipping for all large items (50lbs+)
+        $15.00 shipping of large items for members
+        $75.00 shipping for rushed shipping for large items (delivered within 2 business days)
+        $35.00 rush shipping of large items for members
+        $5.00 shipping for all small non-perishable itemsFree shipping for all small non-perishable items for members
+        $15.00 for rushed shipping of small non-perishable items
+        $15.00 for rushed shipping for members (no discount)
+    </p>
+    <h3>Tax Policy</h3>
+    <p>
+        After you go to pay and put in payment information, 
+        tax is calculated and added to your total
+    </p>
+    <h3>Return Policy</h3>
+    <p>
+        Return items within 30 days (Will not be accepted after 30 days)
+        <br />
+        Full refund if returned in good condition or if it was damaged in shipping process
+        Small items can be dropped off at anearby CosmosLarge items, call the nearest store 
+        and it will be picked up free of charge.
+        If item was damaged by customer, discount repair service offered�If item was damaged 
+        by customer, free repair is offered for members
+    </p>
+
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
