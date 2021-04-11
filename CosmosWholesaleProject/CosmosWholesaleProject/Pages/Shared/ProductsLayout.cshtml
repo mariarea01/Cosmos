@@ -1,0 +1,71 @@
+﻿@*@model CosmosWholesaleProject.Pages.ProductsModel*@
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Products</title>
+    <style>
+        .rectangle {
+            background-color: #003054;
+            border-radius: 10px;
+        }
+        .card {
+            background-color: #F0F0F0;
+            margin: 7px;
+        }
+        .card-header {
+            background-color: #0060AA;
+            color: white;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="rectangle">
+        <h1 class="text-white display-4, text-center">Products</h1>
+    </div>
+
+       <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a asp-page="Food">
+                        <div class="card-header">
+                            Food
+                        </div>
+                        <img src="~/images/ProductsPageImages/dish.png" class="card-img-top" />
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a asp-page="Electronics">
+                        <div class="card-header">
+                            Electronics
+                        </div>
+                        <img src="~/images/ProductsPageImages/electronics.png" class="card-img-top" />
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <a asp-page="Furniture">
+                        <div class="card-header">
+                        Furniture
+                    </div>
+                    <img src="~/images/ProductsPageImages/Furniture Icon.png" class="card-img-top" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            @RenderBody()
+        </div>
+</body>
+</html>
