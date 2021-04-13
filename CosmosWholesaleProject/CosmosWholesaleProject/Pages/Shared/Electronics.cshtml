@@ -1,11 +1,182 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
 
 <html>
 <head>
+    <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width" />
-    <title>@ViewBag.Title</title>
+    <title>Electronics</title>
+
+    <style>
+        .rectangle {
+            background-color: #003054;
+            border-radius: 10px;
+        }
+
+        .rectangle2 {
+            background-color: #0060AA;
+            border-radius: 10px;
+        }
+
+        .card {
+            background-color: #F0F0F0;
+            margin: 10px;
+        }
+
+        .card-img-top {
+            width: 100%;
+            height: 23vw;
+            object-fit: cover;
+        }
+
+        .card-body {
+            width: 100%;
+            height: 20vw;
+        }
+
+        ul {
+            text-align: center;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="rectangle">
+        <h1 class="text-white display-4, text-center">Electronics</h1>
+    </div>
+    <ul>
+        <li>
+            <a href="#Consoles">
+                <h3 class="text-black-50">Consoles</h3>
+            </a>
+        </li>
+        <li>
+            <h3>|</h3>
+        </li>
+        <li>
+            <a href="#TV's">
+                <h3 class="text-black-50">TV's</h3>
+            </a>
+        </li>
+        <li>
+            <h3>|</h3>
+        </li>
+        <li>
+            <a href="#Cellphones">
+                <h3 class="text-black-50">Cellphones</h3>
+            </a>
+        </li>
+        <li>
+            <h3>|</h3>
+        </li>
+        <li>
+            <a href="#Computers">
+                <h3 class="text-black-50">Computers</h3>
+            </a>
+        </li>
+        <li>
+            <h3>|</h3>
+        </li>
+        <li>
+            <a href="#Cameras">
+                <h3 class="text-black-50">Cameras</h3>
+            </a>
+        </li>
+        <li>
+            <h3>|</h3>
+        </li>
+        <li>
+            <a href="#Appliances">
+                <h3 class="text-black-50">Appliances</h3>
+            </a>
+        </li>
+    </ul>
+    <br />
+    <div class="rectangle2">
+        <h3 id="Consoles" class="text-white display-4, text-center">Consoles</h3>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/xbox.png" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Xbox Series X</h5>
+                    <h6 class="text-center">$499.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/playstatin.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">PlayStation 5 Console</h5>
+                    <h6 class="text-center">$499.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/nintendo.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Nintendo Switch</h5>
+                    <h6 class="text-center">$299.00</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <div class="rectangle2">
+        <h3 id="TV's" class="text-white display-4, text-center">TV's</h3>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/samsung tv.jpeg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Samsung LED Smart TV</h5>
+                    <h6 class="text-center">$398.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/sony smart tv.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Sony UHD LED TV</h5>
+                    <h6 class="text-center">$598.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/phillips roku tv.jpeg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Phillip's HD Smart Roku LED TV</h5>
+                    <h6 class="text-center">$128.00</h6>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/ElectronicsPageImages/smart tv lg.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">LG 4K UHD Smart TV 2020</h5>
+                    <h6 class="text-center">$326.99</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div>
         @RenderBody()
     </div>
