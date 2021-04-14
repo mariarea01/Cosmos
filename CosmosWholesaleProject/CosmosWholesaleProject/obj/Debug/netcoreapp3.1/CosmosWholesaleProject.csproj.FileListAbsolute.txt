@@ -116,3 +116,16 @@ C:\Users\jiren\Source\Repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWhole
 C:\Users\jiren\Source\Repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.genruntimeconfig.cache
 C:\Users\jiren\Source\Repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\CosmosWholesaleProject.csproj.CopyComplete
 C:\Users\maria\Documents\CosmosWholesale Github\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\AboutUs.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Electronics.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Food.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Furniture.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Policy.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Products.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\AboutUsLayout.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Electronics.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\FAQ.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Food.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Furniture.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Index.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\Policy.cshtml.g.cs
+C:\Users\jiren\source\repos\mariarea01\Cosmos\CosmosWholesaleProject\CosmosWholesaleProject\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\ProductsLayout.cshtml.g.cs

@@ -1,13 +1,325 @@
-﻿<!DOCTYPE html>
+﻿@*@model CosmosWholesaleProject.Pages.FoodModel*@
+@{
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-</head>
+    <title>Food</title>
+
+    <style>
+        /*.cards {
+            margin: 0 auto;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+            grid-auto-rows: auto;
+            gap: 20px;
+            font-family: sans-serif;
+            padding-top: 30px;
+        }
+
+            .cards * {
+                box-sizing: border-box;
+            }
+
+        .card__image {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            display: block;
+            border-top: 2px solid #333333;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }*/
+
+        .rectangle {
+            background-color: #003054;
+            border-radius: 10px;
+        }
+
+        .rectangle2 {
+            background-color: #0060AA;
+            border-radius: 10px;
+        }
+
+        .card-img-top {
+            background-color: #F0F0F0;
+            margin: 7px;
+            width: 100%;
+            height: 15vw;
+            object-fit: cover;
+        }
+
+    </style>
+    
+</head >
 <body>
-    <div>
-        @RenderBody()
+
+    <div class="rectangle">
+        <h1 class="text-white display-4, text-center"> Food</h1>
     </div>
+
+    <br />
+    <div class="rectangle2">
+        <h3 class="text-white display-4, text-center"> Fruits</h3>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/oranges.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Oranges</h5>
+                    <h6 class="text-center">$6.77</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/apples.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Apples</h5>
+                    <h6 class="text-center">$3.97</h6>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/strawberries.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Strawberries</h5>
+                    <h6 class="text-center">$4.34</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card text-center">
+                <img src="~/images/pears.jpg" class="card-img-top" />
+                <div class="card-body">
+                    <h5 class="card-title">Pears</h5>
+                    <h6 class="text-center">$4.04</h6>
+                </div>
+            </div>
+        </div>
+        
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/grapes.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Grapes</h5>
+                        <h6 class="text-center">$4.50</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <br />
+        <div class="rectangle2">
+            <h3 class="text-white display-4, text-center"> Vegetables</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/zucchini.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Zucchini</h5>
+                        <h6 class="text-center">$2.96</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/carrots.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Carrots</h5>
+                        <h6 class="text-center">$1.29</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/lettuce.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Lettuce</h5>
+                        <h6 class="text-center">$1.59</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/onion.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Onions</h5>
+                        <h6 class="text-center">$1.99</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/asparagus.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Asparagus</h5>
+                        <h6 class="text-center">$3.19</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="rectangle2">
+            <h3 class="text-white display-4, text-center"> Frozen Items</h3>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/pizza.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <h6 class="text-center">$7.69</h6>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/ice cream.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ice cream</h5>
+                        <h6 class="text-center">$4.49</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/waffles.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Waffles</h5>
+                        <h6 class="text-center">$4.99</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/instant dinner.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Instant Dinner</h5>
+                        <h6 class="text-center">$3.19</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/garlic bread.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Beard</h5>
+                        <h6 class="text-center">$2.59</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div class="rectangle2">
+            <h3 class="text-white display-4, text-center"> Meats</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/meatballs.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Meatballs</h5>
+                        <h6 class="text-center">$4.19</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/ham.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ham</h5>
+                        <h6 class="text-center">$2.49</h6>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/ground beef.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ground Beef</h5>
+                        <h6 class="text-center">$10.79</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/chicken.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken</h5>
+                        <h6 class="text-center">$12.22</h6>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/fish.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Fish</h5>
+                        <h6 class="text-center">$6.99</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            @RenderBody()
+        </div>
 </body>
-</html>
+        </html >
