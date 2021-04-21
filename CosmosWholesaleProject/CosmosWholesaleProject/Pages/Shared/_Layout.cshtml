@@ -8,16 +8,25 @@
     <title>@ViewData["Title"] - Cosmos </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+
+    <style>
+    .topnav-right {
+    float: right;
+    }
+    </style>
 </head>
+
+<
+
 <!--Inside the body is the header for the Cosmos Title Page-->
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                    <a class="navbar-brand" asp-area="" asp-page="/Index">
-                        <img src="~/images/Cosmos Logo.jpg" width="140" height="140" alt="logo" />
-                    </a>
-                
+                <a class="navbar-brand" asp-area="" asp-page="/Index">
+                    <img src="~/images/Cosmos Logo.jpg" width="140" height="140" alt="logo" />
+                </a>
+
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -44,6 +53,10 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-page="/Policy">Policy</a>
                         </li>
+                        <div class="topnav-right">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/LogIn">Log In</a>
+                        </div>
+
                     </ul>
                 </div>
             </div>
