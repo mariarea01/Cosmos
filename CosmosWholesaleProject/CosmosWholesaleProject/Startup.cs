@@ -36,20 +36,20 @@ namespace CosmosWholesaleProject
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddDbContext<ProductContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            //services.AddTransient<IProductRepository, EFProductRepository>();
-            //services.AddTransient<IProductRepository, FakeProductRepository>();
-            //services.AddMvc(options => options.EnableEndpointRouting = false);
+            services.AddDbContext<ProductContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            ////services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            ////services.AddTransient<IProductRepository, EFProductRepository>();
+            ////services.AddTransient<IProductRepository, FakeProductRepository>();
+            ////services.AddMvc(options => options.EnableEndpointRouting = false);
             services.AddMvc(options => options.EnableEndpointRouting = false)
             .AddNewtonsoftJson();
             services.AddSession();
-            services.AddMemoryCache();
-            services.AddRazorPages();
+            //services.AddMemoryCache();
+            //services.AddRazorPages();
         }
 
             // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-            public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
+            public void Configure(IApplicationBuilder app, IWebHostEnvironment env/*, ILoggerFactory loggerFactory*/)
         {
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
@@ -59,7 +59,7 @@ namespace CosmosWholesaleProject
             {
                 routes.MapRoute(
                 name: "default",
-                template: "{controller=Product}/{action=List}/{id?}");
+                template: "{controller=Product}/{action=index}/{id?}");
             });
 
             app.UseStaticFiles();

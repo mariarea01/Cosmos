@@ -1,0 +1,25 @@
+﻿@using CosmosWholesaleProject.Models;
+@{
+    Layout = "~/Pages/Shared/Food.cshtml";
+}
+@{
+
+    foreach (var cart in Model)
+    {
+        <div class="main-content">
+            <div class="content-image">
+                <a href="#"><img src='@Url.Content("~/images/FoodPageImages/" +cart.Image)' /></a>
+            </div>
+            <div class="content-title">
+                <a href="#">@cart.ProductId</a>
+            </div>
+            <div class="content-price">
+                Price:$@cart.Price
+            </div>
+            <div class="content-price">
+                @Html.ActionLink("Add to Cart", "OrderNow", "ShoppingCart", new { id = cart.ProductID }, null)
+            </div>
+        </div>
+
+    }
+}

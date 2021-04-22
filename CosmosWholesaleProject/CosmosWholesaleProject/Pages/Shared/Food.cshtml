@@ -1,6 +1,9 @@
 ﻿@*@model CosmosWholesaleProject.Pages.FoodModel*@
+@*@model CosmosWholesaleProject.Controllers.CartController;*@
 @{
     Layout = "~/Pages/Shared/_Layout.cshtml";
+    //Layout = "~/Pages/Food.cshtml";
+    //Layout = "~/Views/Product/ProductListPartial.cshtml";
 }
 <!DOCTYPE html>
 
@@ -65,6 +68,7 @@
     </style>
     
 </head >
+
 <body>
     <div class="rectangle">
         <h1 class="text-white display-4, text-center"> Food</h1>
@@ -121,365 +125,395 @@
         <h3 id="Fruits" class="text-white display-4, text-center"> Fruits</h3>
     </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/oranges.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Oranges</h5>
-                    <h6 class="text-center">$6.77</h6>
-                    @*<input type ="button" name="AddToCart" value="Add to Cart" class="btn btn-primary" itemid="@item.ItemId" id="btnAddtoCart" onclick="AddToCart()" />*@ 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/oranges.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Oranges</h5>
+                        <h6 class="text-center">$6.77</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/apples.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Apples</h5>
+                        <h6 class="text-center">$3.97</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/strawberries.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Strawberries</h5>
+                        <h6 class="text-center">$4.34</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/pears.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Pears</h5>
+                        <h6 class="text-center">$4.04</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/grapes.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Grapes</h5>
+                        <h6 class="text-center">$4.50</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/apples.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Apples</h5>
-                    <h6 class="text-center">$3.97</h6>
+        <br />
+        <div class="rectangle2">
+            <h3 id="Vegetables" class="text-white display-4, text-center"> Vegetables</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/zucchini.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Zucchini</h5>
+                        <h6 class="text-center">$2.96</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/carrots.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Carrots</h5>
+                        <h6 class="text-center">$1.29</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/lettuce.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Lettuce</h5>
+                        <h6 class="text-center">$1.59</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/strawberries.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Strawberries</h5>
-                    <h6 class="text-center">$4.34</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/onion.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Onions</h5>
+                        <h6 class="text-center">$1.99</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/pears.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Pears</h5>
-                    <h6 class="text-center">$4.04</h6>
-                </div>
-            </div>
-        </div>
 
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/grapes.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Grapes</h5>
-                    <h6 class="text-center">$4.50</h6>
-                </div>
-            </div>
-        </div>
-    </div>
 
-
-    <br />
-    <div class="rectangle2">
-        <h3 id="Vegetables" class="text-white display-4, text-center"> Vegetables</h3>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/zucchini.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Zucchini</h5>
-                    <h6 class="text-center">$2.96</h6>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/asparagus.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Asparagus</h5>
+                        <h6 class="text-center">$3.19</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
+        <br />
+        <div id="FrozenItems" class="rectangle2">
+            <h3 class="text-white display-4, text-center"> Frozen Items</h3>
+        </div>
 
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/carrots.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Carrots</h5>
-                    <h6 class="text-center">$1.29</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/pizza.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Pizza</h5>
+                        <h6 class="text-center">$7.69</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/ice cream.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ice cream</h5>
+                        <h6 class="text-center">$4.49</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/waffles.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Waffles</h5>
+                        <h6 class="text-center">$4.99</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/lettuce.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Lettuce</h5>
-                    <h6 class="text-center">$1.59</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/instant dinner.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Instant Dinner</h5>
+                        <h6 class="text-center">$3.19</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/onion.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Onions</h5>
-                    <h6 class="text-center">$1.99</h6>
-                </div>
-            </div>
-        </div>
 
 
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/asparagus.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Asparagus</h5>
-                    <h6 class="text-center">$3.19</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br />
-    <div id="FrozenItems" class="rectangle2">
-        <h3 class="text-white display-4, text-center"> Frozen Items</h3>
-    </div>
-
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/pizza.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Pizza</h5>
-                    <h6 class="text-center">$7.69</h6>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/garlic bread.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Garlic Beard</h5>
+                        <h6 class="text-center">$2.59</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
+        <br />
+        <div class="rectangle2">
+            <h3 id="Meats" class="text-white display-4, text-center"> Meats</h3>
+        </div>
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/ice cream.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Ice cream</h5>
-                    <h6 class="text-center">$4.49</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/meatballs.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Meatballs</h5>
+                        <h6 class="text-center">$4.19</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/ham.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ham</h5>
+                        <h6 class="text-center">$2.49</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/ground beef.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Ground Beef</h5>
+                        <h6 class="text-center">$10.79</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
-
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/waffles.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Waffles</h5>
-                    <h6 class="text-center">$4.99</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/chicken.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken</h5>
+                        <h6 class="text-center">$12.22</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
 
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/instant dinner.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Instant Dinner</h5>
-                    <h6 class="text-center">$3.19</h6>
-                </div>
-            </div>
-        </div>
-
-
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/garlic bread.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Garlic Beard</h5>
-                    <h6 class="text-center">$2.59</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br />
-    <div class="rectangle2">
-        <h3 id="Meats" class="text-white display-4, text-center"> Meats</h3>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/meatballs.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Meatballs</h5>
-                    <h6 class="text-center">$4.19</h6>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/fish.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Fish</h5>
+                        <h6 class="text-center">$6.99</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
 
-
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/ham.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Ham</h5>
-                    <h6 class="text-center">$2.49</h6>
-                </div>
-            </div>
+        <br />
+        <div class="rectangle2">
+            <h3 id="DairyProducts" class="text-white display-4, text-center">Dairy Products</h3>
         </div>
 
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/Milk 3.50.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Milk</h5>
+                        <h6 class="text-center">$3.50</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/cheese.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese</h5>
+                        <h6 class="text-center">$3.12</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/yogurt dannon.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Yogurt</h5>
+                        <h6 class="text-center">$2.49</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/butter.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Butter</h5>
+                        <h6 class="text-center">$2.79</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/coffee creamer.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Coffee Creamer</h5>
+                        <h6 class="text-center">$2.99</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+        </div>
 
-
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/ground beef.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Ground Beef</h5>
-                    <h6 class="text-center">$10.79</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/chicken.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Chicken</h5>
-                    <h6 class="text-center">$12.22</h6>
-                </div>
-            </div>
+        <br />
+        <div class="rectangle2">
+            <h3 id="DryGoods" class="text-white display-4, text-center">Dry Goods</h3>
         </div>
 
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/fish.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Fish</h5>
-                    <h6 class="text-center">$6.99</h6>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/chips lays.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Chips</h5>
+                        <h6 class="text-center">$3.29</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/snack bars.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Snack Bars</h5>
+                        <h6 class="text-center">$2.19</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/cookies.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Cookies</h5>
+                        <h6 class="text-center">$5.68</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/uncle ben rice.jpeg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Rice</h5>
+                        <h6 class="text-center">$2.29</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card text-center">
+                    <img src="~/images/FoodPageImages/cereal.jpg" class="card-img-top" />
+                    <div class="card-body">
+                        <h5 class="card-title">Cereal</h5>
+                        <h6 class="text-center">$2.74</h6>
+                        <input type="submit" name="AddToCart" value="Add to Cart" controller="cart" class=" btn btn-primary" id="btnAddtoCart" onclick="AddtoCart()" />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <br />
-    <div class="rectangle2">
-        <h3 id="DairyProducts" class="text-white display-4, text-center">Dairy Products</h3>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/Milk 3.50.jpeg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Milk</h5>
-                    <h6 class="text-center">$3.50</h6>
-                </div>
-            </div>
+        <div>
+            @RenderBody()
         </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/cheese.jpeg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Cheese</h5>
-                    <h6 class="text-center">$3.12</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/yogurt dannon.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Yogurt</h5>
-                    <h6 class="text-center">$2.49</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/butter.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Butter</h5>
-                    <h6 class="text-center">$2.79</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/coffee creamer.jpeg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Coffee Creamer</h5>
-                    <h6 class="text-center">$2.99</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br />
-    <div class="rectangle2">
-        <h3 id="DryGoods" class="text-white display-4, text-center">Dry Goods</h3>
-    </div>
-
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/chips lays.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Chips</h5>
-                    <h6 class="text-center">$3.29</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/snack bars.jpeg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Snack Bars</h5>
-                    <h6 class="text-center">$2.19</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/cookies.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Cookies</h5>
-                    <h6 class="text-center">$5.68</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/uncle ben rice.jpeg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Rice</h5>
-                    <h6 class="text-center">$2.29</h6>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card text-center">
-                <img src="~/images/FoodPageImages/cereal.jpg" class="card-img-top" />
-                <div class="card-body">
-                    <h5 class="card-title">Cereal</h5>
-                    <h6 class="text-center">$2.74</h6>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div>
-        @RenderBody()
-    </div>
-</body>
-        </html >
+        @RenderSection("Scripts", required: false)
+    </body>
+</html >

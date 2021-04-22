@@ -1,1 +1,30 @@
-﻿
+﻿@{
+    ViewBag.Title = "Food";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+<h2>Index</h2>
+<table cellpadding="2" cellspacing="2" border="1">
+    <tr>
+        <th>ID</th>
+        <th>Price</th>
+        <th>Quantity</th>
+        <th>Sub Total</th>
+    </tr>
+    @foreach (var cart in ViewBag.Cart)
+    {
+        <tr>
+            @*<td><a asp-controller="cart" asp-action="remove" asp-route-id="@item.Product.Id">Remove</a></td>*@
+            <td>@cart.Product.ProductID</td>
+            <td>@cart.Product.Price</td>
+            <td>@cart.Product.Quantity</td>
+            <td>@(cart.Product.Price * cart.Product.Quantity)</td>
+        </tr>
+    }
+    <tr>
+        <td align="right" colspan="6">Sum</td>
+        <td>
+            @ViewBag.total
+        </td>
+    </tr>
+</table>
+
